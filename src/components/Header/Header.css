@@ -2,7 +2,7 @@
   margin: auto;
   height: 34vw;
   background: url('/header-image.jpg') no-repeat ;
- position: relative;
+  position: relative;
 
 }
 .header-contents img{
@@ -14,8 +14,6 @@
 @media screen and (max-width:700px) {
   .header{
     background: url('./header_image.png') ;
-    width: 100%;
-    height: 180px;
     position: relative;
   }
 

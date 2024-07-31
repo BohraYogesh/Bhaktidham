@@ -4,20 +4,6 @@
   justify-content: center;
 }
 
-/* .fifa{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
-
-/* .fifa ul{
-  display: flex; 
-  list-style: none;
-  gap: 10px;
-  font-size: 17px;
-  left: 0;
-} */
-
 .list-display h2{
   font-size: max(2vw,24px);
   font-weight: 600;
@@ -38,7 +24,7 @@
   grid-template-rows: 100px;
   margin-top: 10px;
   margin-bottom: 30px;
-  gap: 20px;
+  gap: 40px;
   row-gap: 20px;
   overflow-y: scroll;
 }
@@ -133,9 +119,7 @@
     background-color: #c09d9d;
     border: none;
   }
-  
-  
-  }
+}
 
 
   @media screen and (max-width:793px) {
@@ -143,6 +127,7 @@
       row-gap: 15px;
       margin-top: -10px;
       height: 155px;
+      gap: 20px;
     }
 
     .list-display h2{
