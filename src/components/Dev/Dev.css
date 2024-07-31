@@ -102,3 +102,23 @@
 
 
 }
+
+@media only screen and (max-width: 793px){
+
+  .dev-hero-content{
+    height: 280px;
+    overflow-y: scroll;
+  }
+  .dev-hero-content::-webkit-scrollbar{
+    width: 5px;
+  }
+  .dev-hero-content::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: rgb(221, 207, 117);
+  }
+  
+  .dev-hero-content::-webkit-scrollbar-track{
+    background: rgb(244, 235, 178);
+  }
+  
+}
