@@ -15,8 +15,9 @@
   .header{
     background: url('./header_image.png') ;
     position: relative;
+    display: block;
   }
 
-  
+
 
 }
