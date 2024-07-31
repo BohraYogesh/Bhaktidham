@@ -13,11 +13,6 @@
 
 @media screen and (max-width:700px) {
   .header{
-    background: url('./header_image.png') ;
-    position: relative;
-    display: block;
+    background: url('/header_image.png') ;
   }
-
-
-
 }
