@@ -3,6 +3,7 @@
   height: 34vw;
   background: url('/header-image.jpg') no-repeat ;
   position: relative;
+  background-size: cover;
 
 }
 .header-contents img{
@@ -11,8 +12,11 @@
 
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:793px) {
   .header{
-    background: url('/header_image.png') ;
+    background: url('/Hanuman.jpg') ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
