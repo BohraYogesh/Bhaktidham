@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: rgb(255 241 154);
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  width: 80%;
+  margin: auto;
+}
+
+@media screen and (max-width:793px) {
+  .app{
+    width: 100%;
+    margin: auto;
+  }
+}

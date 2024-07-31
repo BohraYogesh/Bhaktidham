@@ -1,0 +1,94 @@
+.hero{
+  display: grid;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.main{
+  font-size: max(2vw,24px);
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.hero-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill,minmax(290px,1fr));
+  margin-top: 30px;
+  gap: 10px;
+  row-gap: 30px;
+}
+.hero-content::-webkit-scrollbar{
+  width: 5px;
+}
+.hero-content::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  background: rgb(221, 207, 117);
+}
+ 
+.dharm-contain{
+  width: 296px;
+  gap: 10px;
+  box-shadow: 0px 0px 10px #00000060;
+  cursor: pointer;
+}
+
+.dharm-contain img{
+  width: 296px;
+  height: 170px;
+  display: block;
+}
+
+.dharm-contain p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.main p span{
+  font-size: 21px;
+  font-weight: 500;
+}
+
+@media screen and (max-width:793px) {
+
+  .main{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+
+  }
+  .main p span{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .hero-content{
+    margin-top: 22px;
+    gap: 12px;
+    row-gap: 17px;
+    height: 285px;
+    overflow-y: scroll;
+  }
+  .dharm-contain{
+    width: 170px;
+    gap: 5px;
+    box-shadow: 0px 0px 10px #00000060;
+    cursor: pointer;
+  }
+  .dharm-contain img{
+    width: 170px;
+    height: 90px;
+  }
+  
+  .dharm-contain p{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+
+}
