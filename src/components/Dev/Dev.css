@@ -24,7 +24,7 @@
 .dev-dharm-contain{
   width: 150px;
   gap: 10px;
-  box-shadow: 0px 0px 10px #00000069;
+  box-shadow: 0px 0px 10px #00000040;
   border-radius: 15px 15px 0px 0px;
   cursor: pointer;  
 
@@ -80,6 +80,7 @@
   .dev-hero-content{
     gap: 20px;
     row-gap: 15px;
+    height: 270px;
   }
 
   .dev-dharm-contain{
@@ -115,7 +116,7 @@
 @media only screen and (max-width: 793px){
 
   .dev-hero-content{
-    height: 272px;
+    height: 272gitpx;
     overflow: hidden;
   }
   .dev-hero-content::-webkit-scrollbar{

@@ -1,7 +1,6 @@
 .header{
   margin: auto;
   height: 34vw;
-  /* background: none; */
   border-radius: 0px 0px 10px 10px;
   background: url('./h01.jpg');
   position: relative;
@@ -12,34 +11,34 @@
   10%{
     background: url('./h2.jpg');
     background-size: cover;
+    position: relative;
   }
   30%{
     background: url('./h4.jpg');
     background-size: cover;
+    position: relative;
   }
   50%{
     background: url('./h3.jpg');
     background-size: cover;
+    position: relative;
   }
   75%{
     background: url('./h5.jpg');
     background-size: cover;
+    position: relative;
   }
   100%{
     background: url('./h01.jpg');
     background-size: cover;
+    position: relative;
   }
 
 }
 
-.header-contents img{
-  display: none;
-}
-
-
-
 @media screen and (max-width:793px) {
   .header{
     border-radius: 0px;
+    height: 35vw;
   }
 }
