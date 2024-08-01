@@ -18,12 +18,14 @@
   margin-top: 30px;
   gap: 25px;
   row-gap: 20px;
+  height: 230px;
+  overflow: hidden;
 }
 .dev-dharm-contain{
   width: 150px;
   gap: 10px;
-  box-shadow: 0px 0px 10px #00000020;
-  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 10px #00000069;
+  border-radius: 15px 15px 0px 0px;
   cursor: pointer;  
 
 }
@@ -32,11 +34,13 @@
   width: 150px;
   height: 170px;
   border-radius: 15px 15px 0px 0px;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 
 .image-hover{
   overflow: hidden;
+  border-radius: 15px 15px 0px 0px;
+  height: 170px;
 }
 
 .dev-dharm-contain img:hover{
@@ -93,6 +97,10 @@
     font-weight: 650;
     padding: 5px;
   }
+
+  .image-hover{
+    height: 100px;
+  }
   
   .dev hr{
     width: 90%;
@@ -107,8 +115,8 @@
 @media only screen and (max-width: 793px){
 
   .dev-hero-content{
-    height: 280px;
-    overflow-y: scroll;
+    height: 272px;
+    overflow: hidden;
   }
   .dev-hero-content::-webkit-scrollbar{
     width: 5px;
