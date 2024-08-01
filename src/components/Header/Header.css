@@ -1,7 +1,7 @@
 .header{
   margin: auto;
   height: 34vw;
-  background: none;
+  /* background: none; */
   border-radius: 0px 0px 10px 10px;
   background-image: url('./h01.jpg');
   position: relative;
@@ -26,13 +26,6 @@
   }
 
 }
-
-.header-contents img{
-  display: none;
-}
-
-
-
 @media screen and (max-width:793px) {
   .header{
     border-radius: 0px;
