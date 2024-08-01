@@ -7,7 +7,7 @@
   background-size: cover;
   animation: changeImage 20s linear infinite;
 }
-@keyframes changeImage {
+/* @keyframes changeImage {
   10%{
     background: url('./h2.jpg');
     background-size: cover;
@@ -34,7 +34,7 @@
     position: relative;
   }
 
-}
+}*/
 
 @media screen and (max-width:793px) {
   .header{
