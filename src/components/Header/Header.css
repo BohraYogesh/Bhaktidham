@@ -3,29 +3,41 @@
   height: 34vw;
   /* background: none; */
   border-radius: 0px 0px 10px 10px;
-  background-image: url('./h01.jpg');
+  background: url('./h01.jpg');
   position: relative;
   background-size: cover;
   animation: changeImage 20s linear infinite;
 }
 @keyframes changeImage {
   10%{
-    background-image: url('./h2.jpg');
+    background: url('./h2.jpg');
+    background-size: cover;
   }
   30%{
-    background-image: url('./h4.jpg');
+    background: url('./h4.jpg');
+    background-size: cover;
   }
   50%{
-    background-image: url('./h3.jpg');
+    background: url('./h3.jpg');
+    background-size: cover;
   }
   75%{
-    background-image: url('./h5.jpg');
+    background: url('./h5.jpg');
+    background-size: cover;
   }
   100%{
-    background-image: url('./h01.jpg');
+    background: url('./h01.jpg');
+    background-size: cover;
   }
 
 }
+
+.header-contents img{
+  display: none;
+}
+
+
+
 @media screen and (max-width:793px) {
   .header{
     border-radius: 0px;

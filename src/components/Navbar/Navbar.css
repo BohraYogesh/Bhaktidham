@@ -1,5 +1,5 @@
 .navbar{
-  padding: 0px 50px;
+  padding: 10px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,8 +11,6 @@
   z-index: 999;
 
 }
-
-
 .navbar #logo {
   width: 70px;
   cursor: pointer;
@@ -133,6 +131,10 @@
 
 }
 @media screen and (max-width:500px) {
+  .navbar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
   .navbar #logo{
     width: 52px;
   }

@@ -5,9 +5,9 @@ import headerimg from '../../assets/Hanuman.jpg'
 export const Header = () => {
   return (
     <div className='header'>
-      {/* <div className="header-contents">
+      <div className="header-contents">
         <img src={headerimg} alt="" />
-      </div> */}
+      </div>
     </div>
   )
 }
