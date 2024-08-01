@@ -33,17 +33,20 @@
 }
 .list-display-list::-webkit-scrollbar-thumb{
   border-radius: 20px;
-  background: rgb(221, 207, 117);
+  /* background: rgb(221, 207, 117); */
+  background: #697b7b;
 }
 
 .list-display-list::-webkit-scrollbar-track{
-  background: rgb(244, 235, 178);
+  border-radius: 20px;
+  background: #a0a7a7;
 }
 
 .list-display hr{
     margin-top: 30px;
-    height: 2px;
-    background-color: #c09d9d;
+    height: 1.5px;
+    border-radius: 5px;
+    background-color: rgb(225, 202, 202);
     border: none;
   }
 
@@ -126,8 +129,8 @@
     .list-display-list{
       row-gap: 15px;
       margin-top: -10px;
-      height: 155px;
-      gap: 20px;
+      height: 156px;
+      gap: 15px;
     }
 
     .list-display h2{

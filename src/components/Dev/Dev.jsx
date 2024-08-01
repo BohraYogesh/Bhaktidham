@@ -7,7 +7,7 @@ export const Dev = () => {
   return (
     <div className='dev' id='dev'>
       <div className="dev-hero">
-      <p>Devi Devta(<span>हिन्दू देवियाँ देवता</span>) </p>
+      <p>Devi Devta(<span>देवियाँ देवता</span>) </p>
       </div>
       <div className="dev-hero-content" >
         {dev.map((item, index) => {

@@ -69,10 +69,21 @@
   }
   .hero-content{
     margin-top: 22px;
-    gap: 15px;
+    gap: 12px;
     row-gap: 17px;
     height: 285px;
     overflow-y: scroll;
+  }
+  .hero-content::-webkit-scrollbar{
+    width: 5px;
+  }
+  .hero-content::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: rgb(221, 207, 117);
+  }
+  .hero-content::-webkit-scrollbar-track{
+    border-radius: 20px;
+    background: #b5d4d4;
   }
   .dharm-contain{
     width: 170px;

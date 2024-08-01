@@ -1,11 +1,32 @@
 .header{
   margin: auto;
   height: 34vw;
-  background: url('/header-image.jpg') no-repeat ;
+  background: none;
+  border-radius: 0px 0px 10px 10px;
+  background-image: url('./h01.jpg');
   position: relative;
   background-size: cover;
+  animation: changeImage 20s linear infinite;
+}
+@keyframes changeImage {
+  10%{
+    background-image: url('./h2.jpg');
+  }
+  30%{
+    background-image: url('./h4.jpg');
+  }
+  50%{
+    background-image: url('./h3.jpg');
+  }
+  75%{
+    background-image: url('./h5.jpg');
+  }
+  100%{
+    background-image: url('./h01.jpg');
+  }
 
 }
+
 .header-contents img{
   display: none;
 }
@@ -14,9 +35,9 @@
 
 @media screen and (max-width:793px) {
   .header{
-    background: url('/Hanuman.jpg') ;
+    background: url('/h01.jpg') ;
     width: 100%;
-    background-repeat: no-repeat;
+    border-radius: 0px;
     background-size: cover;
   }
 }
