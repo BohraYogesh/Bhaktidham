@@ -2,10 +2,13 @@
   margin: auto;
   height: 34vw;
   border-radius: 0px 0px 10px 10px;
-  background: url('./h01.jpg');
+  background-image: url('./h01.jpg');
   position: relative;
   background-size: cover;
-  animation: changeImage 20s linear infinite;
+  /* animation: changeImage 20s linear infinite; */
+}
+.header-contents{
+  display: none;
 }
 /* @keyframes changeImage {
   10%{
@@ -34,11 +37,10 @@
     position: relative;
   }
 
-}*/
+} */
 
 @media screen and (max-width:793px) {
   .header{
     border-radius: 0px;
-    height: 35vw;
   }
 }
