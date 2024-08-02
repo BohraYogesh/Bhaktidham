@@ -3,7 +3,7 @@
   height: 34vw;
   border-radius: 0px 0px 10px 10px;
   background-image: url('./h01.jpg');
-  position: relative;
+  /* position: relative; */
   background-size: cover;
   /* animation: changeImage 20s linear infinite; */
 }
