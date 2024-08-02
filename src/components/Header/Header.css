@@ -7,6 +7,10 @@
   background-size: cover;
   animation: changeImage 20s linear infinite;
 }
+.header img{
+  background-size: cover;
+  height: 34vw;
+}
 @keyframes changeImage {
   10%{
     background: url('./h2.jpg');
@@ -40,5 +44,9 @@
   .header{
     border-radius: 0px;
     background-size: cover;
+  }
+
+  .header img{
+    width: 100%;
   }
 }

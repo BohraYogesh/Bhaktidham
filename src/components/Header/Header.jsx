@@ -3,7 +3,9 @@ import './Header.css'
 
 export const Header = () => {
   return (
-    <div className='header'></div>
+    <div className='header'>
+      <img src="h2.jpg" alt="" />
+    </div>
   )
 }
 
