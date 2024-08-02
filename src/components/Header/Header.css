@@ -2,13 +2,14 @@
   margin: auto;
   height: 34vw;
   border-radius: 0px 0px 10px 10px;
-  background-image: url('./h01.jpg');
+  /* background-image: url('./h01.jpg'); */
   position: relative;
   background-size: cover;
 }
 
 .header img{
-display: none;
+  height: 36vw;
+  width: 100%;
 }
 
 @media screen and (max-width:793px) {
