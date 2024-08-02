@@ -50,5 +50,34 @@ display: none;
     background-size: cover;
     height: 36vw;
     width: 100%;
+    animation: changeImages 20s linear infinite;
+  }
+  @keyframes changeImages {
+    10%{
+      background: url('./h2.jpg');
+      background-size: cover;
+      position: relative;
+    }
+    30%{
+      background: url('./h4.jpg');
+      background-size: cover;
+      position: relative;
+    }
+    50%{
+      background: url('./h3.jpg');
+      background-size: cover;
+      position: relative;
+    }
+    75%{
+      background: url('./h5.jpg');
+      background-size: cover;
+      position: relative;
+    }
+    100%{
+      background: url('./h01.jpg');
+      background-size: cover;
+      position: relative;
+    }
+  
   }
 }
