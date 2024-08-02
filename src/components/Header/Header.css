@@ -3,10 +3,14 @@
   height: 34vw;
   border-radius: 0px 0px 10px 10px;
   background: none;
-  background: url('./h01.jpg');
+  background-image: url('./h01.jpg');
   position: relative;
   background-size: cover;
   animation: changeImage 20s linear infinite;
+}
+
+.header img{
+display: none;
 }
 @keyframes changeImage {
   10%{
@@ -41,5 +45,11 @@
   .header{
     border-radius: 0px;
     background-size: cover;
+  }
+  .header img{
+    display: block;
+    background-size: cover;
+    height: 34vw;
+    width: 100%;
   }
 }
