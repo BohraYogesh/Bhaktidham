@@ -5,39 +5,10 @@
   background: url('./h01.jpg');
   position: relative;
   background-size: cover;
-  animation: changeImage 20s linear infinite;
 }
 
 .header img{
 display: none;
-}
-@keyframes changeImage {
-  10%{
-    background: url('./h2.jpg');
-    background-size: cover;
-    position: relative;
-  }
-  30%{
-    background: url('./h4.jpg');
-    background-size: cover;
-    position: relative;
-  }
-  50%{
-    background: url('./h3.jpg');
-    background-size: cover;
-    position: relative;
-  }
-  75%{
-    background: url('./h5.jpg');
-    background-size: cover;
-    position: relative;
-  }
-  100%{
-    background: url('./h01.jpg');
-    background-size: cover;
-    position: relative;
-  }
-
 }
 
 @media screen and (max-width:793px) {
