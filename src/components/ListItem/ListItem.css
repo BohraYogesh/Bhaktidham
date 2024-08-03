@@ -33,7 +33,11 @@
 .list-item-name p {
   padding-left: 3px;
   font-size: 17px;
-  font-weight: 650;
+  font-weight: 600;
+}
+.nav-link{
+  color: black;
+  text-decoration: none;
 }
 
 @media screen and (max-width:793px) {

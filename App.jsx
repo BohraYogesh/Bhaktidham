@@ -1,9 +1,10 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Home from './src/pages/Home/Home';
+import Singleproduct from './src/pages/Singleproduct/Singleproduct';
+import SecondProduct from './src/pages/SecondProduct/SecondProduct'
 import Navbar from './src/components/Navbar/Navbar';
 import Footer from './src/components/Footer/Footer';
-import Aarti from './src/pages/Bhakti/Aarti/Aarti';
 
 export const App = () => {
   return (
@@ -13,7 +14,8 @@ export const App = () => {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home/>} /> 
-          <Route path='Aarti' element= {Aarti}/>
+          <Route path='/:id' element={<Singleproduct/>}/>
+          <Route path='/Devidevta' element={<SecondProduct/>}/>
         </Routes>
       </div>  
       <Footer />
